@@ -1,0 +1,20 @@
+#HeaderLogo, #SignInLogo
+{
+	background-image: url('https://resman.blob.core.windows.net/test/PROP1_logo.png');
+	height: 67px;
+	background-repeat: no-repeat;
+}
+
+#SignInContainer #SignIn {
+width: 350px;
+margin: auto;
+background-color: rgb(255, 0, 0);
+-moz-box-shadow: 0 0 2px #fff;
+-webkit-box-shadow: 0 0 2px rgb(255, 255, 255);
+box-shadow: 0 0 2px rgb(255, 255, 255);
+border: 1px solid rgb(215, 215, 215);
+}
+
+body{
+background-color: red !important;
+}

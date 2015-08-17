@@ -1,0 +1,46 @@
+<head>
+</head>
+<body>
+Body text
+<!-- begin SnapEngage code -->
+<script type="text/javascript">
+  (function() {
+  try {
+    var se = document.createElement('script'); se.type = 'text/javascript'; se.async = true;
+    se.src = '//commondatastorage.googleapis.com/code.snapengage.com/js/b13c51de-487b-4fa7-af4a-9e7f26c9ce52.js';
+	//se.src = 'http://www.resmancloud.com/docs/snapengage.js';
+    var done = false;
+	se.onerror = function () { alert('error');}
+    se.onload = se.onreadystatechange = function() {
+      if (!done&&(!this.readyState||this.readyState==='loaded'||this.readyState==='complete')) {
+        done = true;
+        // Place your SnapEngage JS API code below
+        // SnapEngage.allowChatSound(true); // Example JS API: Enable sounds for Visitors.
+		setTimeout(function() {
+			var button  =document.getElementById('SnapABug_Button');
+			
+			if (button === null) {
+		 var se = document.createElement('script'); se.type = 'text/javascript'; se.async = true;    
+		se.src = 'http://www.resmancloud.com/docs/snapengage.js';
+		var done = false;
+		se.onload = se.onreadystatechange = function() {
+		  if (!done&&(!this.readyState||this.readyState==='loaded'||this.readyState==='complete')) {
+			done = true;
+			// Place your SnapEngage JS API code below
+			// SnapEngage.allowChatSound(true); // Example JS API: Enable sounds for Visitors.
+		  }
+		};
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(se, s);
+		}
+		}, 3000)
+      }
+    };
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(se, s);
+	}
+	catch(e) {
+		
+	}
+  })();
+</script>
+<!-- end SnapEngage code -->
+ </body>
